@@ -61,37 +61,37 @@
     {
         "label": "index",
         "kind": 2,
-        "importPath": "HEALTH INSURANCE PREMIUM PREDICTION.app",
-        "description": "HEALTH INSURANCE PREMIUM PREDICTION.app",
+        "importPath": "HEALTH INSURANCE PREMIUM PREDICTIONS.app",
+        "description": "HEALTH INSURANCE PREMIUM PREDICTIONS.app",
         "peekOfCode": "def index():\n    return render_template('index.html')\n@app.route('/predict', methods=['POST'])\ndef predict():\n    if request.method == 'POST':\n        age = int(request.form['age'])\n        bmi = float(request.form['bmi'])\n        children = int(request.form['children'])\n        gender = int(request.form['gender'])\n        smoker = int(request.form['smoker'])",
-        "detail": "HEALTH INSURANCE PREMIUM PREDICTION.app",
+        "detail": "HEALTH INSURANCE PREMIUM PREDICTIONS.app",
         "documentation": {}
     },
     {
         "label": "predict",
         "kind": 2,
-        "importPath": "HEALTH INSURANCE PREMIUM PREDICTION.app",
-        "description": "HEALTH INSURANCE PREMIUM PREDICTION.app",
+        "importPath": "HEALTH INSURANCE PREMIUM PREDICTIONS.app",
+        "description": "HEALTH INSURANCE PREMIUM PREDICTIONS.app",
         "peekOfCode": "def predict():\n    if request.method == 'POST':\n        age = int(request.form['age'])\n        bmi = float(request.form['bmi'])\n        children = int(request.form['children'])\n        gender = int(request.form['gender'])\n        smoker = int(request.form['smoker'])\n        region = request.form['region']\n        r1=0\n        r2=0",
-        "detail": "HEALTH INSURANCE PREMIUM PREDICTION.app",
+        "detail": "HEALTH INSURANCE PREMIUM PREDICTIONS.app",
         "documentation": {}
     },
     {
         "label": "app",
         "kind": 5,
-        "importPath": "HEALTH INSURANCE PREMIUM PREDICTION.app",
-        "description": "HEALTH INSURANCE PREMIUM PREDICTION.app",
+        "importPath": "HEALTH INSURANCE PREMIUM PREDICTIONS.app",
+        "description": "HEALTH INSURANCE PREMIUM PREDICTIONS.app",
         "peekOfCode": "app = Flask(__name__)\n# model_path = os.path.abspath('./model/premium_prediction_model.pkl')\n# model_load = joblib.load(model_path)\nmodel_load = joblib.load('./model/premium_prediction_model.pkl')\n# model_load = joblib.load(\"C:\\\\Users\\\\Lenovo\\\\Desktop\\\\college1\\\\Labs\\\\semester 5\\\\Machine Learning\\\\mp\\\\model\\\\premium_prediction_model.pkl\")\n@app.route('/')\ndef index():\n    return render_template('index.html')\n@app.route('/predict', methods=['POST'])\ndef predict():",
-        "detail": "HEALTH INSURANCE PREMIUM PREDICTION.app",
+        "detail": "HEALTH INSURANCE PREMIUM PREDICTIONS.app",
         "documentation": {}
     },
     {
         "label": "model_load",
         "kind": 5,
-        "importPath": "HEALTH INSURANCE PREMIUM PREDICTION.app",
-        "description": "HEALTH INSURANCE PREMIUM PREDICTION.app",
+        "importPath": "HEALTH INSURANCE PREMIUM PREDICTIONS.app",
+        "description": "HEALTH INSURANCE PREMIUM PREDICTIONS.app",
         "peekOfCode": "model_load = joblib.load('./model/premium_prediction_model.pkl')\n# model_load = joblib.load(\"C:\\\\Users\\\\Lenovo\\\\Desktop\\\\college1\\\\Labs\\\\semester 5\\\\Machine Learning\\\\mp\\\\model\\\\premium_prediction_model.pkl\")\n@app.route('/')\ndef index():\n    return render_template('index.html')\n@app.route('/predict', methods=['POST'])\ndef predict():\n    if request.method == 'POST':\n        age = int(request.form['age'])\n        bmi = float(request.form['bmi'])",
-        "detail": "HEALTH INSURANCE PREMIUM PREDICTION.app",
+        "detail": "HEALTH INSURANCE PREMIUM PREDICTIONS.app",
         "documentation": {}
     }
 ]
